@@ -1,17 +1,17 @@
 import * as React from 'react';
 import { Platform } from 'react-native';
-import { View, Text, StyleSheet } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
-
 import PlacesListScreen from './screens/PlacesListScreen';
 import PlaceDetailScreen from './screens/PlaceDetailScreen';
 import NewPlaceScreen from './screens/NewPlaceScreen';
 import MapScreen from './screens/MapScreen';
 import Colors from './constants/Colors';
 
-const Stack = createStackNavigator();
 
+
+
+const Stack = createStackNavigator();
 
 
 function App() {
